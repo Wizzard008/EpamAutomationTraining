@@ -2,6 +2,8 @@ package JavaIO;
 
 import java.io.*;
 
+//Прочитать текст Java-программы и записать в другой файл в обратном порядке символы каждой строки.
+
 public class OptionalTask3 {
     public static void main(String[] args) {
         File javaCode=new File("JavaIO/MainTask.java");

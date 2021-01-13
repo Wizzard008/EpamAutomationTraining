@@ -4,6 +4,8 @@ import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
 
+//Прочитать текст Java-программы и все слова public в объявлении атрибутов и методов класса заменить на слово private.
+
 public class OptionalTask2 {
     public static void main(String[] args) {
         File javaCode=new File("JavaIO/MainTask.java");

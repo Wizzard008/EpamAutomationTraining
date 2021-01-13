@@ -5,6 +5,8 @@ import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
 
+//Создать и заполнить файл случайными целыми числами. Отсортировать содержимое файла по возрастанию.
+
 public class OptionalTask1 {
     public static void main(String[] args) {
         File  newDir = new File("JavaIO");
