@@ -40,9 +40,16 @@ public class Student {
         return summation/studentMarks.size();
     }
 
+    public Student(){
+        super();
+        setNameOfUniversity("SUSU");
+        setFaculty(Faculties.Mеханико_математический);
+        setGroup(100);
+        setName("NoName");
+        setSurname("NoSurname");
+    }
 
-
-    Student(String nameOfUniversity, Faculties faculty, int groupNumber){
+    public Student(String nameOfUniversity, Faculties faculty, int groupNumber){
 
         String[][] names = {{"Владимир", "Алесандр", "Михаил", "Максим", "Артем", "Лев",
                 "Марк", "Дмитрий", "Иван", "Матвей", "Даниил"}, {"Софья", "Мария",
@@ -137,5 +144,33 @@ public class Student {
 
     public Map<Subject, Double> getMapOfAverageSubjectsMarks() {
         return mapOfAverageSubjectsMarks;
+    }
+
+    public void setNameOfUniversity(String nameOfUniversity) {
+        this.nameOfUniversity = nameOfUniversity;
+    }
+
+    public void setFaculty(Faculties faculty) {
+        this.faculty = faculty;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setSurname(String surname) {
+        this.surname = surname;
+    }
+
+    public void setGroup(int group) {
+        this.group = group;
+    }
+
+    public void setMapOfSubjectsMarks(Map<Subject, List> mapOfSubjectsMarks) {
+        this.mapOfSubjectsMarks = mapOfSubjectsMarks;
+    }
+
+    public void setMapOfAverageSubjectsMarks(Map<Subject, Double> mapOfAverageSubjectsMarks) {
+        this.mapOfAverageSubjectsMarks = mapOfAverageSubjectsMarks;
     }
 }
