@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/EpamAutomationTraining.iml" filepath="$PROJECT_DIR$/.idea/EpamAutomationTraining.iml" />
+      <module fileurl="file://$PROJECT_DIR$/epam-automation-training/epam-automation-training.iml" filepath="$PROJECT_DIR$/epam-automation-training/epam-automation-training.iml" />
     </modules>
   </component>
 </project>
