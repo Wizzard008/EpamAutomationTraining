@@ -20,7 +20,7 @@ public class OptionalTask5 {
             students.add(student);
         }
         //Запись списка сдудентов в xml файл
-        try{ XMLEncoder e  = new XMLEncoder(new BufferedOutputStream(new FileOutputStream("JavaIO/Students.xml")));
+        try{ XMLEncoder e  = new XMLEncoder(new BufferedOutputStream(new FileOutputStream("/Students.xml")));
             e.writeObject(students);
             e.close();
         } catch (FileNotFoundException fileNotFoundException) {
@@ -28,8 +28,8 @@ public class OptionalTask5 {
         }
 
         //Считывание списка студентов из файла и запись фамилий студентов со средним балом выше 7 в отдельный файл
-        try(FileWriter writer=new FileWriter("JavaIO/Students.txt");BufferedWriter bufferedWriter=new BufferedWriter(writer);){
-            XMLDecoder e=new XMLDecoder(new BufferedInputStream(new FileInputStream("JavaIO/Students.xml")));
+        try(FileWriter writer=new FileWriter("/Students.txt"); BufferedWriter bufferedWriter=new BufferedWriter(writer);){
+            XMLDecoder e=new XMLDecoder(new BufferedInputStream(new FileInputStream("/Students.xml")));
 
             List<Student> studentsLoadedFromFile=(ArrayList<Student>) e.readObject();
             for (Student student:studentsLoadedFromFile) {

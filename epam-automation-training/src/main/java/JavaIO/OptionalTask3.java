@@ -6,8 +6,8 @@ import java.io.*;
 
 public class OptionalTask3 {
     public static void main(String[] args) {
-        File javaCode=new File("JavaIO/MainTask.java");
-        File javaCodeOutput=new File("JavaIO/MainTask_Revert.java");
+        File javaCode=new File("/MainTask.java");
+        File javaCodeOutput=new File("/MainTask_Revert.java");
         if(!javaCodeOutput.exists()) {
             try {
                 javaCodeOutput.createNewFile();

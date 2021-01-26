@@ -4,7 +4,7 @@ import java.util.*;
 
 public class test {
     public static void main(String[] args) {
-//        Student student=new Student("ЮУРГУ",Faculties.Экономический,210);
+//        JavaClassesTasks.Student student=new JavaClassesTasks.Student("ЮУРГУ",Faculties.Экономический,210);
 //        System.out.println(student);
 
 
@@ -43,8 +43,8 @@ public class test {
 
 
 
-//        Student student1=new Student("South Ural State University",Faculties.Биологический,110);
-//        Student student2=new Student("South Ural State University",Faculties.Биологический,110);
+//        JavaClassesTasks.Student student1=new JavaClassesTasks.Student("South Ural State University",Faculties.Биологический,110);
+//        JavaClassesTasks.Student student2=new JavaClassesTasks.Student("South Ural State University",Faculties.Биологический,110);
 //        System.out.println(student1.getMapOfAverageSubjectsMarks());
 //        System.out.println(student2.getMapOfAverageSubjectsMarks());
 //
@@ -122,7 +122,7 @@ public class test {
 //        System.out.println(students.getAverageMarkForUniversity());
         //students(100);
 
-//        Student student=new Student(1);
+//        JavaClassesTasks.Student student=new JavaClassesTasks.Student(1);
 //        System.out.println(student);
 //        System.out.println(student);
 //        System.out.println(student.getStudentAverageMark());

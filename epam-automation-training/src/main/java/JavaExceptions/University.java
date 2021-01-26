@@ -32,7 +32,7 @@ public class University {
             }
         }
     }
-//    for (Student student : students) {
+//    for (JavaClassesTasks.Student student : students) {
     public double getAverageMarkForUniversity() throws ExceptionAbsenceOfGroupsAtFaculty {
         double summation=0;
         int amountOfStudents=0;

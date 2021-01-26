@@ -7,8 +7,8 @@ import java.util.StringTokenizer;
 
 public class OptionalTask4 {
     public static void main(String[] args) {
-        File javaCodeInput=new File("JavaIO/MainTask.java");
-        File javaCodeOutput=new File("JavaIO/MainTask_UpperCase.java");
+        File javaCodeInput=new File("/MainTask.java");
+        File javaCodeOutput=new File("/MainTask_UpperCase.java");
         if(!javaCodeOutput.exists()) {
             try {
                 javaCodeOutput.createNewFile();

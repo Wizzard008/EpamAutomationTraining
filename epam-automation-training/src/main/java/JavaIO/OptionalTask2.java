@@ -8,7 +8,7 @@ import java.util.List;
 
 public class OptionalTask2 {
     public static void main(String[] args) {
-        File javaCode=new File("JavaIO/MainTask.java");
+        File javaCode=new File("/MainTask.java");
         List<String> linesFromJavaCode=new ArrayList<>();
         try(FileReader reader=new FileReader(javaCode);BufferedReader bufferedReader=new BufferedReader(reader)){
             bufferedReader.lines().forEach(linesFromJavaCode::add);
